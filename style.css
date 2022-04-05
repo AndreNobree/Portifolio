@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagens/backPort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+
+.menuSup{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;   
+    background-color: #4B0082;
+}   
+.menuSup a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.menuSup a:hover{
+    color: #FF6347	;
+    font-size: 17.5px;
+}
+
+
+.Sup{
+    width: 360px;
+    height: 535px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    color: #fff;
+   
+}
+#imagem{
+    width: 115px;
+    height: 115px;
+    /*centralizar a imagem*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*centralizar a imagem*/
+    border-radius: 58px;
+}
+.Sup h2{
+    margin: auto;
+    font-family:  'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.Sup h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#skills:hover{
+    color: #4B0082;
+}
+#icones{
+    margin-top: 25x;
+    transition: 0.5s;
+}
+#icones img{
+    margin-top: 12px;
+    width: 35px;
+    height: 35px;
+
+}
+#icones img:hover{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
